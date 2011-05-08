@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DE769C6137721DE00372C31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769C5137721DE00372C31 /* UIKit.framework */; };
+		1DE769C8137721DE00372C31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769C7137721DE00372C31 /* Foundation.framework */; };
+		1DE769CA137721DE00372C31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769C9137721DE00372C31 /* CoreGraphics.framework */; };
+		1DE769CC137721DE00372C31 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769CB137721DE00372C31 /* CoreData.framework */; };
+		1DE769D2137721DE00372C31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DE769D0137721DE00372C31 /* InfoPlist.strings */; };
+		1DE769D5137721DE00372C31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE769D4137721DE00372C31 /* main.m */; };
+		1DE769D8137721DE00372C31 /* iWillNotProcrastinateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE769D7137721DE00372C31 /* iWillNotProcrastinateAppDelegate.m */; };
+		1DE769DB137721DE00372C31 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE769D9137721DE00372C31 /* MainWindow.xib */; };
+		1DE769DE137721DE00372C31 /* iWillNotProcrastinate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DE769DC137721DE00372C31 /* iWillNotProcrastinate.xcdatamodeld */; };
+		1DE769E5137721DE00372C31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769C5137721DE00372C31 /* UIKit.framework */; };
+		1DE769E6137721DE00372C31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769C7137721DE00372C31 /* Foundation.framework */; };
+		1DE769E7137721DE00372C31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769C9137721DE00372C31 /* CoreGraphics.framework */; };
+		1DE769E8137721DE00372C31 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769CB137721DE00372C31 /* CoreData.framework */; };
+		1DE769F0137721DE00372C31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DE769EE137721DE00372C31 /* InfoPlist.strings */; };
+		1DE769F3137721DE00372C31 /* iWillNotProcrastinateTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1DE769F2137721DE00372C31 /* iWillNotProcrastinateTests.h */; };
+		1DE769F5137721DE00372C31 /* iWillNotProcrastinateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE769F4137721DE00372C31 /* iWillNotProcrastinateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DE769E9137721DE00372C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DE769B8137721DE00372C31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE769C0137721DE00372C31;
+			remoteInfo = iWillNotProcrastinate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DE769C1137721DE00372C31 /* iWillNotProcrastinate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWillNotProcrastinate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE769C5137721DE00372C31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DE769C7137721DE00372C31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DE769C9137721DE00372C31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DE769CB137721DE00372C31 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1DE769CF137721DE00372C31 /* iWillNotProcrastinate-Info.plist */ = {isa = PBXFileReference; path = "iWillNotProcrastinate-Info.plist"; sourceTree = "<group>"; };
+		1DE769D1137721DE00372C31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DE769D3137721DE00372C31 /* iWillNotProcrastinate-Prefix.pch */ = {isa = PBXFileReference; path = "iWillNotProcrastinate-Prefix.pch"; sourceTree = "<group>"; };
+		1DE769D4137721DE00372C31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DE769D6137721DE00372C31 /* iWillNotProcrastinateAppDelegate.h */ = {isa = PBXFileReference; path = iWillNotProcrastinateAppDelegate.h; sourceTree = "<group>"; };
+		1DE769D7137721DE00372C31 /* iWillNotProcrastinateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWillNotProcrastinateAppDelegate.m; sourceTree = "<group>"; };
+		1DE769DA137721DE00372C31 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1DE769DD137721DE00372C31 /* iWillNotProcrastinate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iWillNotProcrastinate.xcdatamodel; sourceTree = "<group>"; };
+		1DE769E4137721DE00372C31 /* iWillNotProcrastinateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWillNotProcrastinateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE769ED137721DE00372C31 /* iWillNotProcrastinateTests-Info.plist */ = {isa = PBXFileReference; path = "iWillNotProcrastinateTests-Info.plist"; sourceTree = "<group>"; };
+		1DE769EF137721DE00372C31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DE769F1137721DE00372C31 /* iWillNotProcrastinateTests-Prefix.pch */ = {isa = PBXFileReference; path = "iWillNotProcrastinateTests-Prefix.pch"; sourceTree = "<group>"; };
+		1DE769F2137721DE00372C31 /* iWillNotProcrastinateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWillNotProcrastinateTests.h; sourceTree = "<group>"; };
+		1DE769F4137721DE00372C31 /* iWillNotProcrastinateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWillNotProcrastinateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DE769BE137721DE00372C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE769C6137721DE00372C31 /* UIKit.framework in Frameworks */,
+				1DE769C8137721DE00372C31 /* Foundation.framework in Frameworks */,
+				1DE769CA137721DE00372C31 /* CoreGraphics.framework in Frameworks */,
+				1DE769CC137721DE00372C31 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE769E0137721DE00372C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE769E5137721DE00372C31 /* UIKit.framework in Frameworks */,
+				1DE769E6137721DE00372C31 /* Foundation.framework in Frameworks */,
+				1DE769E7137721DE00372C31 /* CoreGraphics.framework in Frameworks */,
+				1DE769E8137721DE00372C31 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DE769B6137721DE00372C31 = {
+			isa = PBXGroup;
+			children = (
+				1DE769CD137721DE00372C31 /* iWillNotProcrastinate */,
+				1DE769EB137721DE00372C31 /* iWillNotProcrastinateTests */,
+				1DE769C4137721DE00372C31 /* Frameworks */,
+				1DE769C2137721DE00372C31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DE769C2137721DE00372C31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DE769C1137721DE00372C31 /* iWillNotProcrastinate.app */,
+				1DE769E4137721DE00372C31 /* iWillNotProcrastinateTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DE769C4137721DE00372C31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DE769C5137721DE00372C31 /* UIKit.framework */,
+				1DE769C7137721DE00372C31 /* Foundation.framework */,
+				1DE769C9137721DE00372C31 /* CoreGraphics.framework */,
+				1DE769CB137721DE00372C31 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DE769CD137721DE00372C31 /* iWillNotProcrastinate */ = {
+			isa = PBXGroup;
+			children = (
+				1DE769D6137721DE00372C31 /* iWillNotProcrastinateAppDelegate.h */,
+				1DE769D7137721DE00372C31 /* iWillNotProcrastinateAppDelegate.m */,
+				1DE769D9137721DE00372C31 /* MainWindow.xib */,
+				1DE769DC137721DE00372C31 /* iWillNotProcrastinate.xcdatamodeld */,
+				1DE769CE137721DE00372C31 /* Supporting Files */,
+			);
+			path = iWillNotProcrastinate;
+			sourceTree = "<group>";
+		};
+		1DE769CE137721DE00372C31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DE769CF137721DE00372C31 /* iWillNotProcrastinate-Info.plist */,
+				1DE769D0137721DE00372C31 /* InfoPlist.strings */,
+				1DE769D3137721DE00372C31 /* iWillNotProcrastinate-Prefix.pch */,
+				1DE769D4137721DE00372C31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DE769EB137721DE00372C31 /* iWillNotProcrastinateTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DE769F2137721DE00372C31 /* iWillNotProcrastinateTests.h */,
+				1DE769F4137721DE00372C31 /* iWillNotProcrastinateTests.m */,
+				1DE769EC137721DE00372C31 /* Supporting Files */,
+			);
+			path = iWillNotProcrastinateTests;
+			sourceTree = "<group>";
+		};
+		1DE769EC137721DE00372C31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DE769ED137721DE00372C31 /* iWillNotProcrastinateTests-Info.plist */,
+				1DE769EE137721DE00372C31 /* InfoPlist.strings */,
+				1DE769F1137721DE00372C31 /* iWillNotProcrastinateTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DE769C0137721DE00372C31 /* iWillNotProcrastinate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE769F8137721DE00372C31 /* Build configuration list for PBXNativeTarget "iWillNotProcrastinate" */;
+			buildPhases = (
+				1DE769BD137721DE00372C31 /* Sources */,
+				1DE769BE137721DE00372C31 /* Frameworks */,
+				1DE769BF137721DE00372C31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iWillNotProcrastinate;
+			productName = iWillNotProcrastinate;
+			productReference = 1DE769C1137721DE00372C31 /* iWillNotProcrastinate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DE769E3137721DE00372C31 /* iWillNotProcrastinateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE769FB137721DE00372C31 /* Build configuration list for PBXNativeTarget "iWillNotProcrastinateTests" */;
+			buildPhases = (
+				1DE769DF137721DE00372C31 /* Sources */,
+				1DE769E0137721DE00372C31 /* Frameworks */,
+				1DE769E1137721DE00372C31 /* Resources */,
+				1DE769E2137721DE00372C31 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DE769EA137721DE00372C31 /* PBXTargetDependency */,
+			);
+			name = iWillNotProcrastinateTests;
+			productName = iWillNotProcrastinateTests;
+			productReference = 1DE769E4137721DE00372C31 /* iWillNotProcrastinateTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DE769B8137721DE00372C31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = BigMeierHouse;
+			};
+			buildConfigurationList = 1DE769BB137721DE00372C31 /* Build configuration list for PBXProject "iWillNotProcrastinate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1DE769B6137721DE00372C31;
+			productRefGroup = 1DE769C2137721DE00372C31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DE769C0137721DE00372C31 /* iWillNotProcrastinate */,
+				1DE769E3137721DE00372C31 /* iWillNotProcrastinateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DE769BF137721DE00372C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE769D2137721DE00372C31 /* InfoPlist.strings in Resources */,
+				1DE769DB137721DE00372C31 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE769E1137721DE00372C31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE769F0137721DE00372C31 /* InfoPlist.strings in Resources */,
+				1DE769F3137721DE00372C31 /* iWillNotProcrastinateTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DE769E2137721DE00372C31 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DE769BD137721DE00372C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE769D5137721DE00372C31 /* main.m in Sources */,
+				1DE769D8137721DE00372C31 /* iWillNotProcrastinateAppDelegate.m in Sources */,
+				1DE769DE137721DE00372C31 /* iWillNotProcrastinate.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE769DF137721DE00372C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE769F5137721DE00372C31 /* iWillNotProcrastinateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DE769EA137721DE00372C31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DE769C0137721DE00372C31 /* iWillNotProcrastinate */;
+			targetProxy = 1DE769E9137721DE00372C31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DE769D0137721DE00372C31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DE769D1137721DE00372C31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DE769D9137721DE00372C31 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DE769DA137721DE00372C31 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1DE769EE137721DE00372C31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DE769EF137721DE00372C31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DE769F6137721DE00372C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DE769F7137721DE00372C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1DE769F9137721DE00372C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWillNotProcrastinate/iWillNotProcrastinate-Prefix.pch";
+				INFOPLIST_FILE = "iWillNotProcrastinate/iWillNotProcrastinate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1DE769FA137721DE00372C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWillNotProcrastinate/iWillNotProcrastinate-Prefix.pch";
+				INFOPLIST_FILE = "iWillNotProcrastinate/iWillNotProcrastinate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1DE769FC137721DE00372C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iWillNotProcrastinate.app/iWillNotProcrastinate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWillNotProcrastinateTests/iWillNotProcrastinateTests-Prefix.pch";
+				INFOPLIST_FILE = "iWillNotProcrastinateTests/iWillNotProcrastinateTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1DE769FD137721DE00372C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iWillNotProcrastinate.app/iWillNotProcrastinate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iWillNotProcrastinateTests/iWillNotProcrastinateTests-Prefix.pch";
+				INFOPLIST_FILE = "iWillNotProcrastinateTests/iWillNotProcrastinateTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DE769BB137721DE00372C31 /* Build configuration list for PBXProject "iWillNotProcrastinate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE769F6137721DE00372C31 /* Debug */,
+				1DE769F7137721DE00372C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE769F8137721DE00372C31 /* Build configuration list for PBXNativeTarget "iWillNotProcrastinate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE769F9137721DE00372C31 /* Debug */,
+				1DE769FA137721DE00372C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DE769FB137721DE00372C31 /* Build configuration list for PBXNativeTarget "iWillNotProcrastinateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE769FC137721DE00372C31 /* Debug */,
+				1DE769FD137721DE00372C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1DE769DC137721DE00372C31 /* iWillNotProcrastinate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DE769DD137721DE00372C31 /* iWillNotProcrastinate.xcdatamodel */,
+			);
+			currentVersion = 1DE769DD137721DE00372C31 /* iWillNotProcrastinate.xcdatamodel */;
+			path = iWillNotProcrastinate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1DE769B8137721DE00372C31 /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iWillNotProcrastinateTests' target in the 'iWillNotProcrastinateTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
