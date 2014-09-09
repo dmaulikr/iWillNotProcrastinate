@@ -1,0 +1,25 @@
+===Monday, May 9 ===
+Accomplishments: Set up basic application logic today: basic SubjectsListTableViewController
+
+==Tuesday, May 10 ===
+Goals:  - put SubjectsListTableViwController in a UINavigationController
+        - set up a 'plus' button to add a new subject to the TableView and Core Data Database
+            - throw error to user if the subject already exists and has been created in the past
+        - set up a new view controller that will be pushed after user has tapped on a subject
+            -*Will later implement this view controller.  For now just have it display a random UIButton that says back. (for testing use only)
+
+Accomplishments:
+
+Currently working/need to work on: 
+May 10 11:53am
+fix up everything that needs to be pass along through SubjectsListTableViewController
+SubjectsListDetailViewController
+TimeEventsTableViewController
+
+current was working on the list between SubjectsListTableViewController and SubjectsListDetailViewController
+Do the initWithNibName:bundle:subject method stuff
+I Used the performFetch:error: method in order to return an array containing the Subject.  We can then pass this to
+SubjectsListDetailViewController which will then pass it on to TimeEventsTableViewController.
+Note: TimeEventsTableViewController will NOT be pushed onto the stack (UINavigationController) it will be 
+a subview of SubjectsListDetailViewController.  It does need to have a Subject object passed to it though obviously.
+

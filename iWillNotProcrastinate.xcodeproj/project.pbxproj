@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D2E8874137723480003ED81 /* SubjectsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E8873137723480003ED81 /* SubjectsListTableViewController.m */; };
+		1D2E88801377237F0003ED81 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2E887F1377237F0003ED81 /* CoreDataTableViewController.m */; };
+		1D3080E81389F62000A50AAC /* SelectSubjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3080E71389F62000A50AAC /* SelectSubjectTableViewController.m */; };
+		1D39851613869FB5007D6C1A /* TimeStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D39851413869FB5007D6C1A /* TimeStartViewController.m */; };
+		1D39851713869FB5007D6C1A /* TimeStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D39851513869FB5007D6C1A /* TimeStartViewController.xib */; };
+		1D488F4F1377493D00405618 /* TimeEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D488F4E1377493D00405618 /* TimeEvent.m */; };
+		1D488F521377497000405618 /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D488F511377497000405618 /* Subject.m */; };
+		1D84B4081378D0AC00BBFC98 /* Progress.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D84B4071378D0AC00BBFC98 /* Progress.txt */; };
+		1D84B40D13796CF000BBFC98 /* SubjectsListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D84B40B13796CEF00BBFC98 /* SubjectsListDetailViewController.m */; };
+		1D84B40E13796CF000BBFC98 /* SubjectsListDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D84B40C13796CEF00BBFC98 /* SubjectsListDetailViewController.xib */; };
+		1D84B4111379899700BBFC98 /* TimeEventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D84B4101379899700BBFC98 /* TimeEventsTableViewController.m */; };
+		1D86702F137D88D80020BC6B /* AddClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D86702D137D88D80020BC6B /* AddClassViewController.m */; };
+		1D867030137D88D80020BC6B /* AddClassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D86702E137D88D80020BC6B /* AddClassViewController.xib */; };
 		1DE769C6137721DE00372C31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769C5137721DE00372C31 /* UIKit.framework */; };
 		1DE769C8137721DE00372C31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769C7137721DE00372C31 /* Foundation.framework */; };
 		1DE769CA137721DE00372C31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE769C9137721DE00372C31 /* CoreGraphics.framework */; };
@@ -36,23 +49,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D2E8872137723480003ED81 /* SubjectsListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubjectsListTableViewController.h; path = iWillNotProcrastinate/SubjectsListTableViewController.h; sourceTree = "<group>"; };
+		1D2E8873137723480003ED81 /* SubjectsListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubjectsListTableViewController.m; path = iWillNotProcrastinate/SubjectsListTableViewController.m; sourceTree = "<group>"; };
+		1D2E887E1377237F0003ED81 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataTableViewController.h; path = iWillNotProcrastinate/CoreDataTableViewController.h; sourceTree = "<group>"; };
+		1D2E887F1377237F0003ED81 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataTableViewController.m; path = iWillNotProcrastinate/CoreDataTableViewController.m; sourceTree = "<group>"; };
+		1D3080E61389F62000A50AAC /* SelectSubjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectSubjectTableViewController.h; sourceTree = "<group>"; };
+		1D3080E71389F62000A50AAC /* SelectSubjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectSubjectTableViewController.m; sourceTree = "<group>"; };
+		1D39851313869FB5007D6C1A /* TimeStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeStartViewController.h; sourceTree = "<group>"; };
+		1D39851413869FB5007D6C1A /* TimeStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeStartViewController.m; sourceTree = "<group>"; };
+		1D39851513869FB5007D6C1A /* TimeStartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeStartViewController.xib; sourceTree = "<group>"; };
+		1D488F4D1377493D00405618 /* TimeEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeEvent.h; path = iWillNotProcrastinate/TimeEvent.h; sourceTree = "<group>"; };
+		1D488F4E1377493D00405618 /* TimeEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeEvent.m; path = iWillNotProcrastinate/TimeEvent.m; sourceTree = "<group>"; };
+		1D488F501377497000405618 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Subject.h; path = iWillNotProcrastinate/Subject.h; sourceTree = "<group>"; };
+		1D488F511377497000405618 /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Subject.m; path = iWillNotProcrastinate/Subject.m; sourceTree = "<group>"; };
+		1D84B4071378D0AC00BBFC98 /* Progress.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Progress.txt; sourceTree = "<group>"; };
+		1D84B40A13796CEF00BBFC98 /* SubjectsListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubjectsListDetailViewController.h; path = iWillNotProcrastinate/SubjectsListDetailViewController.h; sourceTree = "<group>"; };
+		1D84B40B13796CEF00BBFC98 /* SubjectsListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubjectsListDetailViewController.m; path = iWillNotProcrastinate/SubjectsListDetailViewController.m; sourceTree = "<group>"; };
+		1D84B40C13796CEF00BBFC98 /* SubjectsListDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SubjectsListDetailViewController.xib; path = iWillNotProcrastinate/SubjectsListDetailViewController.xib; sourceTree = "<group>"; };
+		1D84B40F1379899700BBFC98 /* TimeEventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeEventsTableViewController.h; path = iWillNotProcrastinate/TimeEventsTableViewController.h; sourceTree = "<group>"; };
+		1D84B4101379899700BBFC98 /* TimeEventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeEventsTableViewController.m; path = iWillNotProcrastinate/TimeEventsTableViewController.m; sourceTree = "<group>"; };
+		1D86702C137D88D80020BC6B /* AddClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddClassViewController.h; sourceTree = "<group>"; };
+		1D86702D137D88D80020BC6B /* AddClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddClassViewController.m; sourceTree = "<group>"; };
+		1D86702E137D88D80020BC6B /* AddClassViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddClassViewController.xib; sourceTree = "<group>"; };
 		1DE769C1137721DE00372C31 /* iWillNotProcrastinate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWillNotProcrastinate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE769C5137721DE00372C31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1DE769C7137721DE00372C31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DE769C9137721DE00372C31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1DE769CB137721DE00372C31 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		1DE769CF137721DE00372C31 /* iWillNotProcrastinate-Info.plist */ = {isa = PBXFileReference; path = "iWillNotProcrastinate-Info.plist"; sourceTree = "<group>"; };
+		1DE769CF137721DE00372C31 /* iWillNotProcrastinate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iWillNotProcrastinate-Info.plist"; sourceTree = "<group>"; };
 		1DE769D1137721DE00372C31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1DE769D3137721DE00372C31 /* iWillNotProcrastinate-Prefix.pch */ = {isa = PBXFileReference; path = "iWillNotProcrastinate-Prefix.pch"; sourceTree = "<group>"; };
+		1DE769D3137721DE00372C31 /* iWillNotProcrastinate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iWillNotProcrastinate-Prefix.pch"; sourceTree = "<group>"; };
 		1DE769D4137721DE00372C31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1DE769D6137721DE00372C31 /* iWillNotProcrastinateAppDelegate.h */ = {isa = PBXFileReference; path = iWillNotProcrastinateAppDelegate.h; sourceTree = "<group>"; };
+		1DE769D6137721DE00372C31 /* iWillNotProcrastinateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWillNotProcrastinateAppDelegate.h; sourceTree = "<group>"; };
 		1DE769D7137721DE00372C31 /* iWillNotProcrastinateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWillNotProcrastinateAppDelegate.m; sourceTree = "<group>"; };
 		1DE769DA137721DE00372C31 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		1DE769DD137721DE00372C31 /* iWillNotProcrastinate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iWillNotProcrastinate.xcdatamodel; sourceTree = "<group>"; };
 		1DE769E4137721DE00372C31 /* iWillNotProcrastinateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWillNotProcrastinateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DE769ED137721DE00372C31 /* iWillNotProcrastinateTests-Info.plist */ = {isa = PBXFileReference; path = "iWillNotProcrastinateTests-Info.plist"; sourceTree = "<group>"; };
+		1DE769ED137721DE00372C31 /* iWillNotProcrastinateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iWillNotProcrastinateTests-Info.plist"; sourceTree = "<group>"; };
 		1DE769EF137721DE00372C31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1DE769F1137721DE00372C31 /* iWillNotProcrastinateTests-Prefix.pch */ = {isa = PBXFileReference; path = "iWillNotProcrastinateTests-Prefix.pch"; sourceTree = "<group>"; };
+		1DE769F1137721DE00372C31 /* iWillNotProcrastinateTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iWillNotProcrastinateTests-Prefix.pch"; sourceTree = "<group>"; };
 		1DE769F2137721DE00372C31 /* iWillNotProcrastinateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iWillNotProcrastinateTests.h; sourceTree = "<group>"; };
 		1DE769F4137721DE00372C31 /* iWillNotProcrastinateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWillNotProcrastinateTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +118,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D398512138698D8007D6C1A /* Timer Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3080E61389F62000A50AAC /* SelectSubjectTableViewController.h */,
+				1D3080E71389F62000A50AAC /* SelectSubjectTableViewController.m */,
+				1D39851313869FB5007D6C1A /* TimeStartViewController.h */,
+				1D39851413869FB5007D6C1A /* TimeStartViewController.m */,
+				1D39851513869FB5007D6C1A /* TimeStartViewController.xib */,
+			);
+			name = "Timer Classes";
+			sourceTree = "<group>";
+		};
+		1D84B4131379907200BBFC98 /* Core Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1DE769DC137721DE00372C31 /* iWillNotProcrastinate.xcdatamodeld */,
+				1D2E887E1377237F0003ED81 /* CoreDataTableViewController.h */,
+				1D2E887F1377237F0003ED81 /* CoreDataTableViewController.m */,
+				1D488F4D1377493D00405618 /* TimeEvent.h */,
+				1D488F4E1377493D00405618 /* TimeEvent.m */,
+				1D488F501377497000405618 /* Subject.h */,
+				1D488F511377497000405618 /* Subject.m */,
+			);
+			name = "Core Data Classes";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1D84B414137990A700BBFC98 /* TableView Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D86702C137D88D80020BC6B /* AddClassViewController.h */,
+				1D86702D137D88D80020BC6B /* AddClassViewController.m */,
+				1D86702E137D88D80020BC6B /* AddClassViewController.xib */,
+				1D2E8872137723480003ED81 /* SubjectsListTableViewController.h */,
+				1D2E8873137723480003ED81 /* SubjectsListTableViewController.m */,
+				1D84B40A13796CEF00BBFC98 /* SubjectsListDetailViewController.h */,
+				1D84B40B13796CEF00BBFC98 /* SubjectsListDetailViewController.m */,
+				1D84B40C13796CEF00BBFC98 /* SubjectsListDetailViewController.xib */,
+				1D84B40F1379899700BBFC98 /* TimeEventsTableViewController.h */,
+				1D84B4101379899700BBFC98 /* TimeEventsTableViewController.m */,
+			);
+			name = "TableView Classes";
+			path = ..;
+			sourceTree = "<group>";
+		};
 		1DE769B6137721DE00372C31 = {
 			isa = PBXGroup;
 			children = (
@@ -116,10 +196,9 @@
 		1DE769CD137721DE00372C31 /* iWillNotProcrastinate */ = {
 			isa = PBXGroup;
 			children = (
-				1DE769D6137721DE00372C31 /* iWillNotProcrastinateAppDelegate.h */,
-				1DE769D7137721DE00372C31 /* iWillNotProcrastinateAppDelegate.m */,
-				1DE769D9137721DE00372C31 /* MainWindow.xib */,
-				1DE769DC137721DE00372C31 /* iWillNotProcrastinate.xcdatamodeld */,
+				1D84B4131379907200BBFC98 /* Core Data Classes */,
+				1D84B414137990A700BBFC98 /* TableView Classes */,
+				1D398512138698D8007D6C1A /* Timer Classes */,
 				1DE769CE137721DE00372C31 /* Supporting Files */,
 			);
 			path = iWillNotProcrastinate;
@@ -128,6 +207,10 @@
 		1DE769CE137721DE00372C31 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1D84B4071378D0AC00BBFC98 /* Progress.txt */,
+				1DE769D6137721DE00372C31 /* iWillNotProcrastinateAppDelegate.h */,
+				1DE769D7137721DE00372C31 /* iWillNotProcrastinateAppDelegate.m */,
+				1DE769D9137721DE00372C31 /* MainWindow.xib */,
 				1DE769CF137721DE00372C31 /* iWillNotProcrastinate-Info.plist */,
 				1DE769D0137721DE00372C31 /* InfoPlist.strings */,
 				1DE769D3137721DE00372C31 /* iWillNotProcrastinate-Prefix.pch */,
@@ -228,6 +311,10 @@
 			files = (
 				1DE769D2137721DE00372C31 /* InfoPlist.strings in Resources */,
 				1DE769DB137721DE00372C31 /* MainWindow.xib in Resources */,
+				1D84B4081378D0AC00BBFC98 /* Progress.txt in Resources */,
+				1D84B40E13796CF000BBFC98 /* SubjectsListDetailViewController.xib in Resources */,
+				1D867030137D88D80020BC6B /* AddClassViewController.xib in Resources */,
+				1D39851713869FB5007D6C1A /* TimeStartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +353,15 @@
 				1DE769D5137721DE00372C31 /* main.m in Sources */,
 				1DE769D8137721DE00372C31 /* iWillNotProcrastinateAppDelegate.m in Sources */,
 				1DE769DE137721DE00372C31 /* iWillNotProcrastinate.xcdatamodeld in Sources */,
+				1D2E8874137723480003ED81 /* SubjectsListTableViewController.m in Sources */,
+				1D2E88801377237F0003ED81 /* CoreDataTableViewController.m in Sources */,
+				1D488F4F1377493D00405618 /* TimeEvent.m in Sources */,
+				1D488F521377497000405618 /* Subject.m in Sources */,
+				1D84B40D13796CF000BBFC98 /* SubjectsListDetailViewController.m in Sources */,
+				1D84B4111379899700BBFC98 /* TimeEventsTableViewController.m in Sources */,
+				1D86702F137D88D80020BC6B /* AddClassViewController.m in Sources */,
+				1D39851613869FB5007D6C1A /* TimeStartViewController.m in Sources */,
+				1D3080E81389F62000A50AAC /* SelectSubjectTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +534,7 @@
 				1DE769FA137721DE00372C31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DE769FB137721DE00372C31 /* Build configuration list for PBXNativeTarget "iWillNotProcrastinateTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +543,7 @@
 				1DE769FD137721DE00372C31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -456,7 +554,8 @@
 				1DE769DD137721DE00372C31 /* iWillNotProcrastinate.xcdatamodel */,
 			);
 			currentVersion = 1DE769DD137721DE00372C31 /* iWillNotProcrastinate.xcdatamodel */;
-			path = iWillNotProcrastinate.xcdatamodeld;
+			name = iWillNotProcrastinate.xcdatamodeld;
+			path = iWillNotProcrastinate/iWillNotProcrastinate.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

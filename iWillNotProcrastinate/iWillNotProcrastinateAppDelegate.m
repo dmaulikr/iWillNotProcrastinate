@@ -7,11 +7,15 @@
 //
 
 #import "iWillNotProcrastinateAppDelegate.h"
+#import "SubjectsListTableViewController.h"
+#import "Subject.h"
+#import "TimeStartViewController.h"
 
 @implementation iWillNotProcrastinateAppDelegate
 
+@synthesize tbc;
 
-@synthesize window=_window;
+@synthesize window;
 
 @synthesize managedObjectContext=__managedObjectContext;
 
@@ -22,7 +26,24 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //This puts in some test data:
+    
+    [Subject subjectWithName:@"Zoology" andTeacher:@"ZoologyTeacher" inManagedObjectContext:self.managedObjectContext];
+
+    [self saveContext];
+    
+    tbc = [[UITabBarController alloc] init];
+    SubjectsListTableViewController *sltvc = [[SubjectsListTableViewController alloc] initInManagedObjectContext:self.managedObjectContext];
+    TimeStartViewController *timeStart = [[TimeStartViewController alloc] init];
+    timeStart.context = self.managedObjectContext;
+
+    UINavigationController *navcon = [[UINavigationController alloc] initWithRootViewController:sltvc];
+
+    tbc.viewControllers = [NSArray arrayWithObjects:navcon,timeStart,nil];
+    [window addSubview:tbc.view];
     [self.window makeKeyAndVisible];
+    [navcon release];
+    [sltvc release];
     return YES;
 }
 
@@ -64,10 +85,11 @@
 
 - (void)dealloc
 {
-    [_window release];
+    [window release];
     [__managedObjectContext release];
     [__managedObjectModel release];
     [__persistentStoreCoordinator release];
+    [tbc release];
     [super dealloc];
 }
 
